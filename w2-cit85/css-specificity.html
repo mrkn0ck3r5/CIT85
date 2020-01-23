@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+    
+#this-div {
+    /* id's have the highest specificty weight */
+    background-color: lightblue;
+    height: 450px;
+    width:270px;
+    border: 5px dotted rgb(155, 243, 255);
+    font-size: 2.5em;
+    color: white;
+}
+
+h1{
+    background-color:lavender;
+    color:teal;
+    height: 50px;
+    width:160px;
+    border: 5px dotted rgb(155, 243, 255);
+    
+}
+
+#this-h1{
+/* since this id is loaded after the first one this one has the highest specificty weight */
+    font-size: 20px;
+    color:lightcoral;
+}
+
+p{
+   
+    height: 50px;
+    width:180px;
+    border: 4px solid lightskyblue;
+    font-size: 40px;
+    
+}
+
+.this-p{
+    /* since this class is loaded after the p tag this one has the highest specificty weight manipulating paragraph font size. */
+    font-size:16px;
+    color:grey;
+}
+
+#this-p{
+
+    /* id overwrote the color of the class selector for .this-p */
+    color: violet;
+}
+
+.that-p{
+    /* since this class is loaded after the this-div id the color changes to blue. */
+
+    font-size:2.5px;
+    color:blue;
+}
+
+.that-p{
+    /* same class but since this was loaded after the first class, the font-size is now 30px and the color changed. */
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#that-p{
+    /* id overwrote the color of the class selector for .that-p */
+
+    color:darkgray;
+    font-size: 20px;
+}
+
+.last-p{
+    /* class overwrote the color of the id tag for this-div */
+    color: orange;
+}
+
+#last-id {
+    color:black;
+    font-size: 20px;
+    /* id overwrote the color of the class selector for .last-p */
+
+}
+
+div > p {
+    background-color: cyan;
+    /* selects and styled every p element where the parent is a div element, so all of the paragraphs on this webpage. */
+
+}
+
+
+</style>
+
+<body>
+    <div id="this-div">
+    <h1 id="this-h1">Headline</h1>
+    <p class="this-p" id="this-p">This paragraph is in a class where the font-size is 15px</p>
+    <p class="that-p" id="that-p">This is the next paragraph</p>
+    <p class="last-p" id="last-id">The last paragraph</p>
+    </div>
+</body>
+</html>
