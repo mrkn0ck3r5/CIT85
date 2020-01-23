@@ -21,3 +21,32 @@ a:hover{
 a:active {
     background-color: yellow;
   }
+
+
+p:nth-child(even) {
+    background: lightseagreen;
+  }
+
+  
+p:nth-child(odd) {
+    background: lightslategray;
+  }
+
+
+p:first-child{
+    background-color: lightcoral; 
+}
+
+
+p:only-child{
+    background-color: orchid;
+    color:white;
+}
+
+p:last-child{
+    font-size:0.75em;
+}
+
+p:nth-child(anb){
+    font-size:1em;
+}
