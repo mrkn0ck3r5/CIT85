@@ -9,3 +9,15 @@ li {
 #hello {
     color: purple;
 }
+
+a:visited{
+    color:magenta;
+}
+
+a:hover{
+    color:orange;
+}
+
+a:active {
+    background-color: yellow;
+  }
