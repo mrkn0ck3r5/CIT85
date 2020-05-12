@@ -1,0 +1,22 @@
+.inline {
+    width: 30px;
+    height: 5px;
+    border-radius: 30px;
+    border: 2px solid teal;
+    background-color: teal;
+    margin: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.block {
+display: inline-block;
+width: 30px;
+height: 5px;
+border-radius: 30px;
+border: 2px solid thistle;
+background-color: thistle;
+margin: 20px;
+padding-top: 50px;
+padding-left: 20px;
+}
