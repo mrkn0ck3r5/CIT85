@@ -1,0 +1,52 @@
+.box {
+    height: 550px;
+    width: 500px;
+    border: dotted;
+}
+
+.box1 {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    height: 450px;
+    width: 400px;
+    border: dotted;
+}
+
+.box2 {
+    display: block;
+    height: 80px;
+    width: 120px;
+    background-color: red;
+}
+
+.box3 {
+    margin-top: 40px;
+    display: block;
+    height: 80px;
+    width: 120px;
+    background-color: blue;
+}
+
+.box4 {
+    margin-top: 40px;
+    display: block;
+    height: 80px;
+    width: 120px;
+    background-color: yellow;
+}
+
+.box5 {
+    margin-top: 40px;
+    display: block;
+    height: 80px;
+    width: 120px;
+    background-color: green;
+}
+
+.box6 {
+    margin: auto;
+    display: block;
+    height: 80px;
+    width: 120px;
+}
