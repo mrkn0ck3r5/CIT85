@@ -8,12 +8,15 @@
     display: block;
     padding: 20px;
     margin: 20px;
-    height: 450px;
+    height: 470px;
     width: 400px;
     border: dotted;
 }
 
 .box2 {
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
     display: block;
     height: 80px;
     width: 120px;
@@ -21,6 +24,9 @@
 }
 
 .box3 {
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
     margin-top: 40px;
     display: block;
     height: 80px;
@@ -29,6 +35,9 @@
 }
 
 .box4 {
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
     margin-top: 40px;
     display: block;
     height: 80px;
@@ -37,6 +46,9 @@
 }
 
 .box5 {
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
     margin-top: 40px;
     display: block;
     height: 80px;
