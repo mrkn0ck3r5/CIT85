@@ -36,3 +36,165 @@ h2 {
 h3 {
     text-indent: 50px;
 }
+
+.container {
+    border: 2px outset black;
+    width: 425px;
+    height: 240px;
+}
+
+.container1 {
+    border: 2px outset black;
+    width: 425px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.container2 {
+    border: 2px outset black;
+    width: 425px;
+    height: 355px;
+    margin-top: 20px;
+}
+
+.container3 {
+    border: 2px outset black;
+    width: 330px;
+    height: 235px;
+    margin-top: 20px;   
+}
+
+header{
+    float: left;
+    background-color: grey;    
+    text-align: center;
+    width: 410px;
+    height: 50px;
+    margin: 5px;
+}
+
+.header1 {
+    float: left;
+    background-color: grey; 
+    text-align: center;
+    width: 320px;
+    height: 50px;
+    margin: 5px;
+}
+
+nav {
+    float: left;
+    background-color: grey;    
+    text-align: center;
+    width: 410px;
+    height: 50px;
+    margin: 5px;
+}
+
+.nav1 {
+    float: left;
+    background-color: grey;    
+    text-align: center;
+    width: 100px;
+    height: 106px;
+    margin: 5px;
+}
+
+section {
+    float: left;
+    clear: left;
+    background-color: grey;   
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 3px;
+  }
+
+.section1 {
+    height: 20px;
+    width: 95px;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.section2 {
+    height: 17px;
+    width: 95px;
+    background-color: white;
+    margin-top: 2px;
+}
+
+article {
+    clear: left;
+    float: left;
+    background-color: grey;  
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 4px;
+}
+
+.article1 {
+  float: left;
+    background-color: grey;    
+    text-align: center;
+    width: 20px;
+    height: 106px;
+    margin: 5px;
+}
+
+.article1 {
+    clear: left;
+    float: left;
+    background-color: grey;    
+    text-align: center;
+    width: 20px;
+    height: 106px;
+    margin: 5px;
+  }
+
+aside {
+    float: right;
+    background-color: grey; 
+    text-align: center;
+    width: 205px;
+    height: 106px;
+    margin: 3px;
+}
+
+.aside1 {
+    clear: left;
+    float: right;
+    background-color: grey; 
+    text-align: center;
+    width: 205px;
+    height: 165px;
+    margin: 3px;
+}
+
+.aside2 {
+    float: left;
+    background-color: grey;    
+    text-align: center;
+    width: 100px;
+    height: 106px;
+    margin: 5px;
+}
+
+footer {
+    float: left;
+    background-color: grey; 
+    text-align: center;
+    width: 410px;
+    height: 50px;
+    margin: 5px;
+}
+
+.footer1 {
+    float: left;
+    background-color: grey; 
+    text-align: center;
+    width: 320px;
+    height: 50px;
+    margin: 5px;
+}
