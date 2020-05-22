@@ -1,0 +1,33 @@
+.circle {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+
+    animation: 
+    pulse 3s ease infinite alternate, 
+    nudge 5s linear infinite alternate;
+}
+
+@keyframes pulse {
+    0%, 100% {
+      background-color: rgb(0, 251, 176);
+    }
+    50% {
+      background-color: rgb(0, 162, 255);
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    20% {
+      transform: translate(750px, 0);
+    }
+    
+    80% {
+      transform: translate(-550px, 0);
+    }
+  }
