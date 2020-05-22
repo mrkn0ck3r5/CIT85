@@ -1,0 +1,124 @@
+div {
+    margin: auto;
+
+      width: 1200px;
+      height: 200px;
+  }
+
+p {
+    font-size: 20px;
+}
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+
+    div {
+        margin: auto;
+          width: 600px;
+          height: 400px;
+      }
+
+    .flex-container2 {
+        flex-direction: column;
+    }
+    .flex-container3 {
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: white;
+    }
+
+    div {
+        margin: auto;
+          width: 400px;
+          height: 400px;
+      }
+
+    .flex-container2 {
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    body {
+      background-color: white;
+    }
+
+    div {
+        margin: auto;
+          width: 400px;
+          height: 400px;
+      }
+
+    .flex-container2 {
+        flex-direction: column;
+    }
+  }
+
+  .flex-container2 {
+      justify-content: flex-start; 
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      }
+
+      .flex-container3 {
+        justify-content: flex-start; 
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        }
+  
+  .flex-item2 {
+       background: tomato;
+       line-height: 100px;
+       color: white;
+       font-weight: bold;
+       font-size: 2em;
+       text-align: center;
+       flex-grow: 1;
+  }
+  
+  .flex-item3 {
+      background: rgb(71, 212, 255);
+      color: black;
+      text-align: center;
+      flex-grow:1;
+    }
+  
+    .flex-item4 {
+      background: yellow;
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+      flex-grow:1;
+    }
+  
+    .flex-item5 {
+      background: purple;
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+      flex-grow:1;
+    }
+  
+    .flex-item6 {
+      background: greenyellow;
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+      flex-grow:1;
+    }
