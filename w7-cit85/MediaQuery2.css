@@ -1,0 +1,88 @@
+div {
+    margin: auto;
+    border: 3px dotted red;
+      width: 1000px;
+      height: 600px;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .flex-container2 {
+        flex-direction: column;
+    }
+
+    .flex-item3 {
+        width: 1000px;
+    }
+    .flex-item4 {
+        width: 1000px;
+    }
+    .flex-item5 {
+        width: 1000px;
+    }
+    .flex-item6 {
+        width: 1000px;
+    }
+  }
+
+  .flex-container2 {
+      justify-content: flex-start; 
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      }
+  
+  .flex-item2 {
+       background: tomato;
+       line-height: 100px;
+       width: 1000px;
+       height: 100px;
+       color: white;
+       font-weight: bold;
+       font-size: 2em;
+       text-align: center;
+  }
+  
+  .flex-item3 {
+      background: rgb(146, 242, 255);
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+      flex-grow:3;
+    }
+  
+    .flex-item4 {
+      background: rgb(185, 255, 173);
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+      flex-grow:2;
+    }
+  
+    .flex-item5 {
+      background: rgb(255, 242, 65);
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+      flex-grow:3;
+    }
+  
+    .flex-item6 {
+      background: rgb(151, 71, 255);
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+      flex-grow:3;
+    }
