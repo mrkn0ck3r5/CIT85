@@ -1,0 +1,21 @@
+
+.container {
+    background-color: darkgrey;
+    height: 200px;
+    width: 200px;
+}
+
+.element {
+    border: 1px dotted #000;
+    background-color: #eee;
+    padding: 20px;
+    color: #000;
+    position: relative;
+    margin-top: 10px;
+}
+
+.element2 {
+    background-color: rgb(191, 245, 255);
+    height: 50px;
+    width: 50px;
+}
