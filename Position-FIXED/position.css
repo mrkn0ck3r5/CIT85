@@ -1,0 +1,9 @@
+#dog {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    opacity: 0.3;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
