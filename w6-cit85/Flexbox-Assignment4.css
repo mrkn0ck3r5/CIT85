@@ -1,0 +1,64 @@
+div {
+    width: 1000px;
+    height: 205px;
+    border: 3px solid red;
+}
+
+.flex-container2 {
+    justify-content: flex-start; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    }
+
+.flex-item2 {
+     background: blue;
+     border: 3px solid rgba(0,0,0,.2);
+     line-height: 100px;
+     color: white;
+     font-weight: bold;
+     font-size: 2em;
+     text-align: center;
+     flex-grow: 3;
+}
+
+.flex-item3 {
+    background: rgb(76, 103, 255);
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    flex-grow:2;
+  }
+
+  .flex-item4 {
+    background: rgb(159, 212, 255);
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    flex-grow:2;
+  }
+
+  .flex-item5 {
+    background: rgb(14, 147, 255);
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    flex-grow:3;
+  }
+
+  .flex-item6 {
+    background: rgb(58, 193, 255);
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    flex-grow:3;
+  }
